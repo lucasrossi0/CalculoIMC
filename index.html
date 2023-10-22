@@ -10,10 +10,10 @@
     <div class="container">
       <h1>Calcule seu IMC</h1>
       <label for="weight" class="labelInput">Peso:</label>
-      <input id="weight" type="text" class="inputData" />
+      <input id="weight" type="number" class="inputData" placeholder="Em Kg" />
       <label for="height" class="labelInput">Altura:</label>
-      <input id="height" type="text" class="inputData" />
-      <button id="submit">Calcular</button>
+      <input id="height" type="number" class="inputData" placeholder="Em Cm" />
+      <button id="submit" onclick="calcIMC()">Calcular</button>
       <p id="result"></p>
     </div>
     <script src="./scripts/index.js"></script>
